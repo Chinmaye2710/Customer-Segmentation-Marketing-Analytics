@@ -11,7 +11,7 @@ The analysis covers:
 * **RFM Analysis & Segmentation:** Utilizing Recency, Frequency, and Monetary scoring (`NTILE(3)`) to categorize customers into business groups (VIP, LOYAL, BIG SPENDER, AT RISK, LOW).
 * **Performance Metrics:** Identifying top customers within segments, channel preferences, and campaign responsiveness.
 
-## 📁 Project Structure
+##  Project Structure
 
 * `SQL Scripts/` : Contains the SQL codes for the analytical views and reporting queries (e.g., `01_Create_Customer_View.sql`).
 * `Dataset/` : Raw marketing campaign dataset (Customer details, spending data, channel data).
@@ -64,13 +64,13 @@ Standard campaign strategies yield vastly different results across segments.
 <img width="648" height="175" alt="5_Campaign-Analysis" src="https://github.com/user-attachments/assets/6256366f-b992-483a-8169-d99e1dc1e39f" />
 
 
-## 🛠️ Technical Skills Demonstrated
+##Technical Skills Demonstrated
 
 * **SQL Functions:** Aggregate (`SUM`, `AVG`, `COUNT`, `MIN`, `MAX`), Window (`NTILE`, `RANK`, `OVER`), Control Flow (`CASE`).
 * **Data Architecture:** Schema creation (`VIEWS`), Common Table Expressions (`CTEs`), Subqueries.
 * **Analytics Domain:** Customer Segmentation, RFM Analysis, Churn Prediction, Business Intelligence.
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Setup Database:** Run `SQL Scripts/1_create_customer_view.sql` in SSMS to prepare the base analytical dataset and RFM scoring.
 2. **Run Analysis:** Execute scripts `2_Executive_Summary.sql` through `6_Campaign_Analysis.sql` to view the specific business insights.
