@@ -1,0 +1,14 @@
+SELECT
+    ID,
+    Segment,
+    RECENCY,
+    TOTAL_SPENT,
+    TOTAL_PURCHASE,
+    Response
+FROM Customer1
+WHERE RECENCY > 70
+AND TOTAL_SPENT > (
+    SELECT AVG(TOTAL_SPENT)
+    FROM Customer1
+)
+ORDER BY TOTAL_SPENT DESC
